@@ -1,4 +1,4 @@
-#+TITLE: BOOST: Designing an Open Data Standard for Biomass Supply Chain Traceability
+#+TITLE: When No Standard Exists: Building Open Biomass Traceability for Climate Policy
 #+AUTHOR: Peter Tittmann, PhD | Arbos
 #+DATE: 2026-02-14
 #+DESCRIPTION: CFP Submission for Open Source Summit North America 2026
@@ -10,19 +10,7 @@
 
 * Abstract
 
-California's Low Carbon Fuel Standard (LCFS) and emerging biomass energy programs require verified chain-of-custody data from forest to facility — but no open standard exists for this data exchange. The result: proprietary formats, manual verification, and a traceability gap that undermines climate program integrity.
-
-The Biomass Open Origin Standard for Tracking (BOOST) is a W3C Community Group developing an open, interoperable data standard for solid biomass supply chains. Funded by the California Department of Conservation, BOOST emerged from a comprehensive needs assessment across state agencies, certification bodies (FSC, SBP), and supply chain operators. The resulting architecture defines an entity-relationship model covering traceability, organizational identity, material processing, geographic data, sustainability claims, and regulatory reporting.
-
-This talk will cover:
-
-- *The problem*: Why biomass traceability is a critical gap in climate policy implementation, and why existing chain-of-custody systems aren't solving it
-- *Needs assessment to architecture*: How stakeholder engagement across regulators, certifiers, and industry shaped the data model — and what surprised us
-- *Open development in practice*: Using GitHub, JSON Schema, CI/CD validation, and an interactive ERD navigator to develop a multi-entity specification with community contributors
-- *What's next*: A planned web-based validation tool to let agencies and operators check data submissions against both the schema and regulatory sufficiency requirements
-- *Lessons learned*: What building an open standard for a regulated industry taught us about the gap between "technically complete" and "actually useful"
-
-Attendees will learn how open standards can address real-world supply chain transparency challenges in climate policy, how W3C Community Groups provide governance for multi-stakeholder development, and the practical realities of moving from needs assessment to specification in a domain with entrenched proprietary systems.
+Six state agencies need the same supply chain data. Three certification bodies collect it differently. No open standard connects them. The Biomass Open Origin Standard for Tracking (BOOST) is a W3C Community Group building that standard — an open, interoperable data model for tracking woody biomass from forest to fuel. Funded by the California Department of Conservation and developed through a comprehensive needs assessment with regulators, certifiers, tribal programs, and industry, BOOST is early-stage work with hard-won lessons. This talk covers what we found, what we're building, and what building an open standard for a regulated industry actually looks like when the stakeholders range from regulatory attorneys to field operations crews.
 
 * Description
 
@@ -46,7 +34,7 @@ The lessons from BOOST apply to anyone building open standards in regulated doma
 
 * Speaker Bio
 
-Peter Tittmann is a forest carbon scientist and the founder of Arbos, a technical advisory firm specializing in forest carbon analytics and climate investment. He chairs the BOOST Working Group (W3C Community Group) and has led the development of the BOOST data standard from inception through two phases of California state funding. His work bridges the gap between natural resource science, open-source technology, and climate policy implementation.
+Peter Tittmann is a forest carbon scientist and the founder of Arbos, a technical advisory firm specializing in forest carbon analytics and climate investment. He chairs the BOOST Working Group (W3C Community Group) and has led the development of the BOOST data standard from inception through two phases of California state funding. He has presented on forest carbon methodology and biomass supply chain policy to CARB, the California Board of Forestry, and inter-agency working groups. His work bridges natural resource science, open-source technology, and climate policy implementation.
 
 * Notes                                                            :noexport:
 
