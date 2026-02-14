@@ -1,0 +1,46 @@
+#+TITLE: BOOST: An Open Data Standard for Biomass Supply Chain Traceability — From Forest to Fuel
+#+AUTHOR: Peter Tittmann, PhD | Arbos
+#+DATE: 2026-02-11
+#+DESCRIPTION: CFP Submission for Open Source Summit North America 2026
+#+PROPERTY: Track Standards & Specifications
+#+PROPERTY: Session_Type Breakout Session (30 min)
+#+PROPERTY: Event Open Source Summit + Embedded Linux Conference NA 2026
+#+PROPERTY: Event_Date May 18-20, 2026 | Minneapolis, Minnesota
+#+PROPERTY: CFP_Deadline Sunday, February 15, 2026 11:59 PM PST
+
+* Abstract
+
+California's Low Carbon Fuel Standard (LCFS) and emerging biomass energy programs require verified chain-of-custody data from forest to facility — but no open standard exists for this data exchange. The result: proprietary formats, manual verification, and a traceability gap that undermines climate program integrity.
+
+The Biomass Open Origin Standard for Tracking (BOOST) is a W3C Community Group developing an open, interoperable data standard for solid biomass supply chains. Funded by the California Department of Conservation across two phases, BOOST defines 36 interconnected entities covering traceability, organizational identity, material processing, geographic data, sustainability claims, and regulatory reporting — all as JSON Schema with automated validation.
+
+This talk will cover:
+
+- *The problem*: Why biomass traceability is a critical gap in climate policy implementation, and why proprietary chain-of-custody systems aren't solving it
+- *The standard*: BOOST's entity-relationship model, from TraceableUnit to LcfsPathway — designed for interoperability across certification schemes (FSC, SBP) and regulatory frameworks (LCFS, BioRAM)
+- *Open process in practice*: How we use GitHub CI/CD, automated schema validation, Docker-containerized builds, and an interactive ERD navigator to maintain a 36-entity specification with community contributors
+- *Reference implementation*: A web-based validation tool that lets agencies and operators check data submissions against both the BOOST schema and regulatory sufficiency requirements
+- *Lessons learned*: What building an open standard for a regulated industry taught us about stakeholder engagement, government adoption, and the gap between "technically complete" and "actually useful"
+
+Attendees will learn how open standards and open-source tooling can address real-world supply chain transparency challenges in climate and natural resource policy — and how W3C Community Groups provide a governance framework for multi-stakeholder standard development.
+
+* Speaker Bio
+
+Peter Tittmann is a forest carbon scientist and the founder of Arbos, a technical advisory firm specializing in forest carbon analytics and climate investment. He chairs the BOOST Working Group (W3C Community Group) and has led the development of the BOOST data standard from inception through two phases of California state funding. His work bridges the gap between natural resource science, open-source technology, and climate policy implementation.
+
+* Notes                                                            :noexport:
+
+** Target Track Options
+- Standards & Specifications → "Standards for Critical and Emerging Technology"
+- Standards & Specifications → "Specifications and Implementations Showcase"
+- Digital Trust → "Establishing Open Source Trust Frameworks"
+
+** Key Selling Points
+- W3C Community Group — established open governance
+- California state-funded across two phases — government backing
+- 36-entity JSON Schema with CI/CD — serious open-source infrastructure
+- CARB/LCFS integration — directly relevant to climate policy
+- Speaker is Working Group Chair
+
+** Submission URL
+https://sessionize.com — check Linux Foundation CFP page for exact link
